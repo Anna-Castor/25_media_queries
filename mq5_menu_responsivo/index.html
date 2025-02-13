@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">Menu</i><!--Há algo errado aqui, icone nao aparece. Verificar-->
+        <menu id="itens">
+            <ul>
+                <a href="#">
+                    <li>Opção1</li>
+                </a>
+                <a href="#">
+                    <li>Opção2</li>
+                </a>
+                <a href="#">
+                    <li>Opção3</li>
+                </a>
+                <a href="#">
+                    <li>Opção4</li>
+                </a>
+                <a href="#">
+                    <li>Opção</li>
+                </a>
+            </ul>
+        </menu>
+    </header>
+    
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maxime et, alias quam sed nobis similique tenetur est cum excepturi, maiores itaque veniam suscipit neque rem! Ex quae tempora iure?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ea tempore recusandae voluptate sequi ullam exercitationem illum alias nam quo eveniet! Accusamus dolore officiis unde optio vel nemo, nam cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ad illo quae sunt vitae? Ullam molestiae, necessitatibus quos, et temporibus aliquam voluptatum at, quis dolore animi maxime. Alias, vitae dolore.Lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nobis eligendi exercitationem velit totam ipsa adipisci, quae consequuntur quasi modi nostrum in iusto est minima repellat sequi at. Hic, error.Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi praesentium amet molestiae, doloremque magnam vitae qui voluptatem nam velit ea, eos alias quas quisquam. Mollitia ab molestiae dicta porro corrupti.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aspernatur corporis doloribus, deleniti perspiciatis, quam eligendi enim facere magni deserunt est, ut nisi veritatis temporibus nobis quo distinctio a consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nesciunt eum harum odio facere reprehenderit itaque soluta rem iusto, at id, hic sapiente, possimus eius fuga a! Quibusdam, quas libero.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu () {
+            if(itens.style.display == 'block'){
+                (itens.style.display = 'none')
+            }
+
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
